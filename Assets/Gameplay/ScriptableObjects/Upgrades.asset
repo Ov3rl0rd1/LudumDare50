@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5675d69623124484a0b2bd964d8ac, type: 3}
+  m_Name: Upgrades
+  m_EditorClassIdentifier: 
+  _coreUpgrades:
+  - _name: Improved cooling
+    _description: Core cools down 100% faster.
+    _icon: {fileID: 21300000, guid: 6c4f5bfcfa0c3464eb5f45aa6e67cef1, type: 3}
+    _cost: 10
+    _isInfinity: 0
+    _coolingSpeedMultiplier: 2
+  - _name: Improved cooling
+    _description: Core cools down 50% faster.
+    _icon: {fileID: 21300000, guid: 6c4f5bfcfa0c3464eb5f45aa6e67cef1, type: 3}
+    _cost: 15
+    _isInfinity: 0
+    _coolingSpeedMultiplier: 1.5
+  _healthUpgrades:
+  - _name: Heal
+    _description: Heal 25% hp.
+    _icon: {fileID: 21300000, guid: 3f8d9c78d1531fb44826ee63becf5978, type: 3}
+    _cost: 5
+    _isInfinity: 0
+    _healthMultiplier: 0.25
+    _maxHealthMultiplier: 1
+  - _name: Max Health
+    _description: Increase Max Health by 50%.
+    _icon: {fileID: 21300000, guid: 1c7b3724440b468439978d95533306c4, type: 3}
+    _cost: 10
+    _isInfinity: 0
+    _healthMultiplier: 1
+    _maxHealthMultiplier: 1.5
+  - _name: Heal
+    _description: Heal 30% hp.
+    _icon: {fileID: 21300000, guid: 3f8d9c78d1531fb44826ee63becf5978, type: 3}
+    _cost: 8
+    _isInfinity: 1
+    _healthMultiplier: 0.3
+    _maxHealthMultiplier: 1
+  _fighterUpgrades:
+  - _name: Attack speed
+    _description: Increase attack speed by 50%.
+    _icon: {fileID: 21300000, guid: a93ec34fad6b15d40a2c26dd86bd826a, type: 3}
+    _cost: 3
+    _isInfinity: 0
+    _damageMultiplier: 1
+    _shootDelayDivider: 1.5
+  - _name: Damage
+    _description: Increase damage by 25%.
+    _icon: {fileID: 21300000, guid: ab9772eafa44b44478f4c53c81ab65d1, type: 3}
+    _cost: 5
+    _isInfinity: 0
+    _damageMultiplier: 1.25
+    _shootDelayDivider: 1
+  - _name: Damage
+    _description: Increase damage by 25%.
+    _icon: {fileID: 21300000, guid: ab9772eafa44b44478f4c53c81ab65d1, type: 3}
+    _cost: 6
+    _isInfinity: 0
+    _damageMultiplier: 1.25
+    _shootDelayDivider: 1
+  - _name: Damage
+    _description: Increase damage by 25%.
+    _icon: {fileID: 21300000, guid: ab9772eafa44b44478f4c53c81ab65d1, type: 3}
+    _cost: 8
+    _isInfinity: 0
+    _damageMultiplier: 1.25
+    _shootDelayDivider: 1
+  - _name: Damage
+    _description: Increase damage by 25%.
+    _icon: {fileID: 21300000, guid: ab9772eafa44b44478f4c53c81ab65d1, type: 3}
+    _cost: 12
+    _isInfinity: 0
+    _damageMultiplier: 1.25
+    _shootDelayDivider: 1
+  - _name: Attack speed
+    _description: Increase attack speed by 50%.
+    _icon: {fileID: 21300000, guid: a93ec34fad6b15d40a2c26dd86bd826a, type: 3}
+    _cost: 16
+    _isInfinity: 0
+    _damageMultiplier: 1
+    _shootDelayDivider: 1.5
